@@ -2,7 +2,7 @@
 class altPageBuilder{
 
   public function mainPage(){
-    echo 'derp';
+    require(__DIR__ . '/../templates/index.php');
   }
 
   public function addPages(){
